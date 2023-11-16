@@ -7,7 +7,7 @@ This is the evolution of my other CS2 RCON tool: https://github.com/fpaezf/CS2-r
 
 Uses a modified and lightweigh version of RCON DotNET by Untodesu: https://github.com/untodesu/rcon-dotnet
 
-Comments and feedback on Reddit: ???
+Comments and feedback on Reddit: https://www.reddit.com/r/cs2/comments/17wzvst/another_cs2_rcon_tool/
 
 Built with with Visual Studio &amp; .NET Framework 4.7.2.
 <img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
