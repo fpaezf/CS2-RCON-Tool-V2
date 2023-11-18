@@ -1,4 +1,4 @@
-![Sin título](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/b9be003d-13b4-4a12-b1eb-a1bfc696febc)
+![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/c3588489-65c8-463a-9149-18c4c8efcb45)
 
 # Counter-Strike 2 RCON Tool
 Another **Counter-Strike 2 RCON tool** specially designed to remotely control all your CS2 servers.
@@ -43,4 +43,9 @@ Built with with Visual Studio &amp; .NET Framework 4.7.2.
 ⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **+ip 0.0.0.0** or simply remove the +ip parameter. Thanks **asdfxD** for the fix.
 
 ## Screenshots
-
+![2](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72611fa9-77d1-4970-b30e-9e88b3923f12)
+![3](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/28333a2d-81e0-4406-aa44-e638d35b7139)
+![4](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/77d3f4d4-1979-4c40-aa44-aef44306c421)
+![5](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/c4197c67-aa43-468b-9f7b-20575909c6cb)
+![6](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/bef01e8a-bcb0-4a37-8e63-1a9df76afc14)
+![7](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72e2cb1f-960b-42a5-a8cb-9bce758300ac)
