@@ -1,4 +1,4 @@
-![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/c3588489-65c8-463a-9149-18c4c8efcb45)
+![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/d952e5ce-3d8b-478c-bfc0-a7fdb6a57095)
 
 # Counter-Strike 2 RCON Tool
 Another **Counter-Strike 2 RCON tool** specially designed to remotely control all your CS2 servers.
