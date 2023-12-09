@@ -1,6 +1,35 @@
 ![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/101c752b-0959-437d-a69a-05c9a4ecebba)
 
-# Counter-Strike 2 RCON Tool
+# Counter-Strike 2 RCON tool
+This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple local and remote **Counter-Strike 2** game servers using the TCP/IP-based **Source RCON protocol**.
+
+In the past, a lot of RCON tools were published, maybe the most popular was **HLSW** but currently the project is abandoned and no updates are released. Some clones like **Source Admin Tool** (https://github.com/Drifter321/admintool) tried to take over but most of them are outdated and doesn't support Counter-Strike 2 at 100%.
+
+
+
+
+
+
+
+## The Source RCON protocol
+The **Source RCON Protocol** is a network communication protocol which allows to remotely send console commands to any Source-based game server. The most common use of the RCON protocol is to allow server owners to manage their game servers without direct access to the machine where the game server is running on.
+
+You can view more details of how the Source RCON protocol works here: https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
+
+## The Source RCON protocol
+
+
+
+
+
+
+In order for commands to be accepted, the connection between client and server must first be authenticated using the server's **RCON password**, which can be set up using the console variable **rcon_password "yourpassword"** located in your **server.cfg** file.
+
+
+
+
+
+
 Another **Counter-Strike 2 RCON tool** specially designed to remotely control all your CS2 servers.
 
 This is the evolution of my other CS2 RCON tool: https://github.com/fpaezf/CS2-rcon-tool
