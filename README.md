@@ -1,6 +1,6 @@
 ![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/101c752b-0959-437d-a69a-05c9a4ecebba)
 
-# Counter-Strike 2 RCON tool
+# 📡Counter-Strike 2 RCON tool
 This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple local and remote **Counter-Strike 2** game servers using the TCP/IP-based **Source RCON protocol**.
 
 In the past, a lot of RCON tools were published, maybe the most popular was **HLSW** but currently the project is abandoned and no updates are released. Some clones like **Source Admin Tool** (https://github.com/Drifter321/admintool) tried to take over but most of them are outdated and doesn't support Counter-Strike 2 at 100%.
