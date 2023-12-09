@@ -1,9 +1,19 @@
 ![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/101c752b-0959-437d-a69a-05c9a4ecebba)
 
 # 📡Counter-Strike 2 RCON tool
-This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple local and remote **Counter-Strike 2** game servers using the TCP/IP-based **Source RCON protocol**.
+This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple local and/or remote **Counter-Strike 2** game servers at same time using the TCP/IP-based **Source RCON protocol**.
 
-In the past, a lot of RCON tools were published, maybe the most popular was **HLSW** but currently the project is abandoned and no updates are released. Some clones like **Source Admin Tool** (https://github.com/Drifter321/admintool) tried to take over but most of them are outdated and doesn't support Counter-Strike 2 at 100%.
+In the past, a lot of RCON tools were published, maybe the most popular was **HLSW** but currently the project is abandoned and no updates are released. Some clones like **Source Admin Tool** tried to take over but most of them are outdated and doesn't support Counter-Strike 2 at 100%.
+
+**Source Admin Tool:** https://github.com/Drifter321/admintool
+
+Seeing the lack of updated and functional tools to manage my own game servers i decided to code a new one by myself. I made a few intents to implement the **Source RCON protocol** and finally i build a library that is published in GitHub fut finally i decided to use another already built library made by an author called Untodesu because mine is buggy and needs a more deep testing. 
+
+**Source RCON protocol in VB .net:** https://github.com/fpaezf/Valve-RCON-protocol-in-VB.NET
+**RCON DotNET by Untodesu:** https://github.com/untodesu/rcon-dotnet
+
+ 
+
 
 
 
