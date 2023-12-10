@@ -18,7 +18,8 @@ The **Source RCON Protocol** is a TCP/IP-based network communication protocol wh
 
 In order for commands to be accepted, the connection between client and server must first be authenticated using the server's **RCON password**, which can be set up using a special console variable.
 
-You can view more details of how the Source RCON protocol works here: https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
+You can view more details of how the Source RCON protocol works in Valve's website:
+- https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
 
 ## Counter-Strike 2 RCON tool Main features
 - Visual servers list
@@ -45,16 +46,29 @@ You can view more details of how the Source RCON protocol works here: https://de
 You can publish your comments, ask for new features or send your feedback on Reddit: https://www.reddit.com/r/cs2/comments/17wzvst/another_cs2_rcon_tool/
   
 ## Installation & use
-- Add or edit the **rcon_password "your-password"** cvar inside your **server.cfg** file.
-- Make sure server.cfg is executed in your startup command line
+- Add this line inside your **server.cfg** file located at **game\csgo\cfg\server.cfg**.
+  
+rcon_password "your-password"
+
+- Replace **your-password** for a security word like **manhattan** or **banana1983** (do not use point, comma, space or accents)
+- Make sure **server.cfg** is executed in your startup command line:
+
+*Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 +exec server.cfg -ip 0.0.0.0 -port 27015 -maxplayers 64
+
 - Open the application and add a new server filling all fields.
 - Start managing your servers!.
 - To use Steam web API you will need an API key: https://steamcommunity.com/dev/apikey
   
-⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **+ip 0.0.0.0** or simply remove the +ip parameter. Thanks **asdfxD** for the fix.
+⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **-ip 0.0.0.0** or simply remove the -ip parameter. Thanks **asdfxD** for the fix.
+
+*Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 +exec server.cfg -ip 0.0.0.0 -port 27015 -maxplayers 64
 
 ## Why source code is not published?
-Stop bothering me.
+Some people have asked me why I publish this tool on Github if it is not open source, this is my answer:
+
+Github allows me to have a free website where I can publish updates easily, can receive users feedback and messages and in addition, people can easily find this software if they search for this kind of tools in any search engine.
+
+Finally, coding a tool like this costs many hours of effort and research which I have invested for free. If you want to see how this program works, you can use any free and open source .NET decompiler and see it yourself, but if you want to develop a tool like this, you will have to code it yourself. At the moment I do not intend to publish the source code so, please: STOP BOTHERING ME.
 
 ## Screenshots of the tool GUI
 ![2](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72611fa9-77d1-4970-b30e-9e88b3923f12)
@@ -71,5 +85,5 @@ To easly manage my own game servers i also published a tool that allows you to i
 
 - Conter-Strike 2 server manager tool: https://github.com/fpaezf/CS2-server-manager
 
-You can publish your comments, ask for new features or send your feedback on Reddit
+You can publish your comments, ask for new features or send your feedback on Reddit:
 - https://www.reddit.com/r/cs2/comments/172lgds/my_cs2_server_installerupdaterlauncher/
