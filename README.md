@@ -46,21 +46,24 @@ You can view more details of how the Source RCON protocol works in Valve's websi
 You can publish your comments, ask for new features or send your feedback on Reddit: https://www.reddit.com/r/cs2/comments/17wzvst/another_cs2_rcon_tool/
   
 ## Installation & use
-**#1:** Add or edit this line inside your **server.cfg** file located at **game\csgo\cfg\server.cfg**. Replace **your-password** for a security word like **manhattan** or **banana1983** (do not use point, comma, space or accents).
+**#1:** Add or edit this line inside your **server.cfg** file located at **game\csgo\cfg\server.cfg**.
 
-rcon_password "your-password"
+- rcon_password "your-password"
+
+Replace **your-password** for a security word like **manhattan** or **banana1983** (do not use point, comma, space or accents).
 
 **#2:** Make sure **server.cfg** is executed in your startup command line, if not, add **+exec server.cfg** on it:
 
-*Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 **+exec server.cfg** -ip 123.123.123.123 -port 27015 -maxplayers 64
+- *Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 **+exec server.cfg** -ip 123.123.123.123 -port 27015 -maxplayers 64
 
 ⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **-ip 0.0.0.0** or simply remove the -ip parameter. Thanks **asdfxD** for the fix.
 
-*Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 +exec server.cfg **-ip 0.0.0.0** -port 27015 -maxplayers 64
+- *Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 +exec server.cfg **-ip 0.0.0.0** -port 27015 -maxplayers 64
 
 **#3:** Open the application and add a new server filling all fields. You have to input a name to identify it, the server IP, the listen port and the rcon password you have set in the first step.
 
-**#4: (OPTIONAL)** To use Steam web API to fetch the server data you will need an API key: https://steamcommunity.com/dev/apikey
+**#4: (OPTIONAL)** To use Steam web API to fetch the server data you will need an API key:
+- https://steamcommunity.com/dev/apikey
 
 
 
