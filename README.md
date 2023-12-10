@@ -13,7 +13,6 @@ Seeing the lack of updated and functional tools to manage my own game servers i 
 
 **RCON DotNET by Untodesu:** https://github.com/untodesu/rcon-dotnet
 
-
 ## The Source RCON protocol
 The **Source RCON Protocol** is a TCP/IP-based network communication protocol which allows to remotely send console commands to any Source-based game server. The most common use of the RCON protocol is to allow server owners to manage their game servers without direct access to the machine where the game server is running on.
 
@@ -21,7 +20,7 @@ In order for commands to be accepted, the connection between client and server m
 
 You can view more details of how the Source RCON protocol works here: https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
 
-## Main features
+## Counter-Strike 2 RCON tool Main features
 - Visual servers list
 - GeoIP-based servers country flags
 - GeoIP-based players country flags
@@ -42,16 +41,7 @@ You can view more details of how the Source RCON protocol works here: https://de
 - Application log
 
 You can publish your comments, ask for new features or send your feedback on Reddit: https://www.reddit.com/r/cs2/comments/17wzvst/another_cs2_rcon_tool/
-
-Built with with Visual Studio &amp; .NET Framework 4.7.2.
-
-
-## Other CS2 admin tools
-- Conter-Strike 2 server manager tool: https://github.com/fpaezf/CS2-server-manager
-- Conter-Strike 2 server manager tool on Reddit: https://www.reddit.com/r/cs2/comments/172lgds/my_cs2_server_installerupdaterlauncher/
   
-
-
 ## Installation & use
 - Add or edit the **rcon_password "your-password"** cvar inside your **server.cfg** file.
 - Open the application and add a new server filling all fields.
@@ -59,7 +49,13 @@ Built with with Visual Studio &amp; .NET Framework 4.7.2.
   
 ⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **+ip 0.0.0.0** or simply remove the +ip parameter. Thanks **asdfxD** for the fix.
 
-## Screenshots
+## Other CS2 admin tools
+To easly manage my own game servers i also published a tool that allows you to install, update, start and stop the servers with just one click.
+- Conter-Strike 2 server manager tool: https://github.com/fpaezf/CS2-server-manager
+
+You can publish your comments, ask for new features or send your feedback on Reddit: https://www.reddit.com/r/cs2/comments/172lgds/my_cs2_server_installerupdaterlauncher/
+
+## Screenshots of the tool GUI
 ![2](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72611fa9-77d1-4970-b30e-9e88b3923f12)
 ![3](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/28333a2d-81e0-4406-aa44-e638d35b7139)
 ![4](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/77d3f4d4-1979-4c40-aa44-aef44306c421)
