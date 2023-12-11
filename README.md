@@ -65,7 +65,7 @@ Replace **your-password** for a security word like **manhattan** or **banana1983
 **#4: (OPTIONAL)** To use Steam web API to fetch the server data you will need an API key:
 - https://steamcommunity.com/dev/apikey
 
-
+⚠️**REMEBER:** Steam web API can only fetch the hostname, number of players and bots, SteamID, VAC status and a few more parameters. To fetch player list and send commands to the server you will need a RCON password authentication.
 
 ## Why source code is not published?
 Some people have asked me why I publish this tool on Github if it is not open source, this is my answer:
