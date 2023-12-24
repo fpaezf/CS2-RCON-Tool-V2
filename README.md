@@ -8,7 +8,7 @@ In the past, a lot of RCON tools were published, maybe the most popular was **HL
 
 - **Source Admin Tool:** https://github.com/Drifter321/admintool
 
-Seeing the lack of updated and functional tools to manage my own game servers i decided to code a new one by myself. I made a few intents to implement the **Source RCON protocol** and finally i build a library that is published in GitHub fut finally i decided to use a ripped and lightweigh version of another already built library made by an author called Untodesu because mine is buggy and needs a more deep testing. 
+Seeing the lack of updated and functional tools to manage my own game servers i decided to code a new one by myself. I made a few intents to implement the **Source RCON protocol** and i've coded a library that is published in GitHub but finally i decided to use a ripped and lightweigh version of another already built library made by an author called **Untodesu** because mine is buggy and needs a more deep testing. 
 
 - **Source RCON protocol in VB .net:** https://github.com/fpaezf/Valve-RCON-protocol-in-VB.NET
 - **RCON DotNET by Untodesu:** https://github.com/untodesu/rcon-dotnet
