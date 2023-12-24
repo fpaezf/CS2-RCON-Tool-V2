@@ -62,7 +62,7 @@ Finally, coding a tool like this costs many hours of effort and research which I
 ![7](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72e2cb1f-960b-42a5-a8cb-9bce758300ac)
 
 ## Other CS2 admin tools
-![Uploading aaaa.png…]()
+![aaaa](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/8fbfd68a-7d16-4518-82dd-c6484ef0a6e3)
 
 To easly manage my own game servers i also published a tool that allows you to install, update, start and stop the servers with just one click.
 
