@@ -42,30 +42,9 @@ You can view more details of how the Source RCON protocol works in Valve's websi
 - Launch the game with -insecure parameter
 - Shutdown remote server
 - Application log
-
-You can publish your comments, ask for new features or send your feedback on Reddit: https://www.reddit.com/r/cs2/comments/17wzvst/another_cs2_rcon_tool/
   
-## Installation & use
-**#1:** Add or edit this line inside your **server.cfg** file located at **game\csgo\cfg\server.cfg**.
-
-- rcon_password "your-password"
-
-Replace **your-password** for a security word like **manhattan** or **banana1983** (do not use point, comma, space or accents).
-
-**#2:** Make sure **server.cfg** is executed in your startup command line, if not, add **+exec server.cfg** on it:
-
-- *Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 **+exec server.cfg** -ip 123.123.123.123 -port 27015 -maxplayers 64
-
-⚠️**WARNING:** If you're using a Docker image please, set your IP in startup commands to **-ip 0.0.0.0** or simply remove the -ip parameter. Thanks **asdfxD** for the fix.
-
-- *Example:* -dedicated -usercon -console -secure +game_type 1 +game_mode 2 +map de_dust2 +mapgroup mg_cs2 +exec server.cfg **-ip 0.0.0.0** -port 27015 -maxplayers 64
-
-**#3:** Open the application and add a new server filling all fields. You have to input a name to identify it, the server IP, the listen port and the rcon password you have set in the first step.
-
-**#4: (OPTIONAL)** To use Steam web API to fetch the server data you will need an API key:
-- https://steamcommunity.com/dev/apikey
-
-⚠️**REMEBER:** Steam web API can only fetch the hostname, number of players and bots, SteamID, VAC status and a few more parameters. To fetch player list and send commands to the server you will need a RCON password authentication.
+## Installation & usage
+- https://github.com/fpaezf/CS2-RCON-Tool-V2/wiki/Installation-and-Usage
 
 ## Why source code is not published?
 Some people have asked me why I publish this tool on Github if it is not open source, this is my answer:
@@ -83,7 +62,7 @@ Finally, coding a tool like this costs many hours of effort and research which I
 ![7](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/72e2cb1f-960b-42a5-a8cb-9bce758300ac)
 
 ## Other CS2 admin tools
-**Here will be a photo**
+![Uploading aaaa.png…]()
 
 To easly manage my own game servers i also published a tool that allows you to install, update, start and stop the servers with just one click.
 
