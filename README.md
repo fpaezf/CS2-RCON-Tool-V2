@@ -1,3 +1,10 @@
+# ⚠️⚠️⚠️ THIS TOOL IS DEPRECATED ⚠️⚠️⚠️
+This tool is no longer maintained, please download and use the new tool:
+- https://github.com/fpaezf/Counter-Strike-dedicated-server-admin-tool
+
+
+
+
 ![1](https://github.com/fpaezf/CS2-RCON-Tool-V2/assets/28062918/101c752b-0959-437d-a69a-05c9a4ecebba)
 
 # 📡Counter-Strike 2 RCON tool <img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
